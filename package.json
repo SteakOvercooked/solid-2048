@@ -1,0 +1,25 @@
+{
+  "name": "2048",
+  "version": "1.0.0",
+  "description": "2048 written with solidjs",
+  "main": "src/index.ts",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite",
+    "build": "vite build",
+    "typecheck": "tsc --noEmit --incremental false"
+  },
+  "author": "Ivan Kapitanov",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "10.4.17",
+    "postcss": "8.4.33",
+    "typescript": "5.3.3",
+    "vite": "5.0.12",
+    "vite-plugin-solid": "2.8.2"
+  },
+  "dependencies": {
+    "solid-js": "1.8.11"
+  }
+}

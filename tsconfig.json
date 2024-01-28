@@ -2,14 +2,17 @@
   "compilerOptions": {
     "jsx": "preserve",
     "jsxImportSource": "solid-js",
-    "module": "NodeNext",
-    "moduleResolution": "NodeNext",
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "esModuleInterop": true,
     "target": "ES6",
     "lib": ["DOM", "ESNext"],
     "isolatedModules": true,
     "skipLibCheck": true,
     "strict": true,
-    "baseUrl": "."
+    "baseUrl": ".",
+    "noEmit": true,
+    "incremental": false
   },
   "include": ["src/**/*"],
   "exclude": ["node_modules"]
